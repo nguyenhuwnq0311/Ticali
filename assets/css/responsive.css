@@ -11,6 +11,12 @@ Author URI: http://www.Xpeedstudio.com
     .main_contactus_area input[type=submit] {
         width: 30%;
     }
+    .home {
+        background: url(../images/homebg.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
+        min-height: 50vh;
+    }
 }
 
 /* Portrait tablets and small desktops */
@@ -43,6 +49,18 @@ Author URI: http://www.Xpeedstudio.com
         width: 20%;
         margin-top: 3%;
     }
+    .cd-header {
+        width: 100%;
+    }
+
+
+    .home {
+        background: url(../images/homebg.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
+        min-height: 50vh;
+    }
+
 
 }
 
@@ -88,6 +106,13 @@ Author URI: http://www.Xpeedstudio.com
         width:100%;
         height: 80%; 
     }
+    
+    .home {
+        background: url(../images/homebg.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
+        min-height: 50vh;
+    }
 }
 
 
@@ -99,6 +124,12 @@ Author URI: http://www.Xpeedstudio.com
     .cd-header a.brand-logo img {
         width: 20%;
         margin-top: 3%;
+    }
+    .home {
+        background: url(../images/homebg.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
+        min-height: 50vh;
     }
 
 }
@@ -118,6 +149,12 @@ Author URI: http://www.Xpeedstudio.com
         width: 20%;
         margin-top: 3%;
     }
+    .home {
+        background: url(../images/homebg.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
+        min-height: 50vh;
+    }
 }
 
 
@@ -128,6 +165,12 @@ Author URI: http://www.Xpeedstudio.com
     .cd-header a.brand-logo img {
         width: 25%;
         margin-top: 3%;
+    }
+    .home {
+        background: url(../images/homebg.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
+        min-height: 50vh;
     }
 }
 
