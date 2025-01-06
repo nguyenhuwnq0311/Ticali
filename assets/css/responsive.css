@@ -41,6 +41,7 @@ Author URI: http://www.Xpeedstudio.com
     
     .cd-header a.brand-logo img {
         width: 20%;
+        margin-top: 3%;
     }
 
 }
@@ -55,6 +56,8 @@ Author URI: http://www.Xpeedstudio.com
     }
     .cd-header a.brand-logo img {
         width: 20%;
+        margin-top: 3%;
+        
     }
     #main-nav li a{
         padding: 2% 10%;
@@ -95,6 +98,7 @@ Author URI: http://www.Xpeedstudio.com
     }
     .cd-header a.brand-logo img {
         width: 20%;
+        margin-top: 3%;
     }
 
 }
@@ -112,6 +116,7 @@ Author URI: http://www.Xpeedstudio.com
     }
     .cd-header a.brand-logo img {
         width: 20%;
+        margin-top: 3%;
     }
 }
 
@@ -121,7 +126,8 @@ Author URI: http://www.Xpeedstudio.com
         height: 680px;
     }
     .cd-header a.brand-logo img {
-        width: 20%;
+        width: 25%;
+        margin-top: 3%;
     }
 }
 
