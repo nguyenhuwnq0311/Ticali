@@ -69,7 +69,7 @@ Main components
 }
 @media only screen and (min-width: 768px) {
     .cd-header {
-        height: 60px;
+        height: 80px;
     }
 }
 
@@ -88,8 +88,6 @@ Main components
         left: 20px;
         top: 24px;
     }
-
-    
 }
 @media only screen and (min-width: 1170px) {
     #cd-logo {

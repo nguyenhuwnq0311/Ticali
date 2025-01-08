@@ -11,16 +11,6 @@ Author URI: http://www.Xpeedstudio.com
     .main_contactus_area input[type=submit] {
         width: 30%;
     }
-    .home {
-        background: url(../images/homebg.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
-        min-height: 50vh;
-    }
-    .cd-header a.brand-logo img {
-        width: 25%;
-        /* margin-top: 3%; */
-    }
 }
 
 /* Portrait tablets and small desktops */
@@ -50,17 +40,12 @@ Author URI: http://www.Xpeedstudio.com
     }
     
     .cd-header a.brand-logo img {
-        width: 25%;
-        margin-top: 3%;
-    }
-    .home {
-        background: url(../images/homebg.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
-        min-height: 50vh;
+        width: 20%;
     }
 
 }
+
+
 
 
 /* Landscape phones and portrait tablets */
@@ -69,8 +54,7 @@ Author URI: http://www.Xpeedstudio.com
         font-size: 90%;
     }
     .cd-header a.brand-logo img {
-        width: 25%;
-        margin-top: 3%;
+        width: 20%;
     }
     #main-nav li a{
         padding: 2% 10%;
@@ -101,13 +85,6 @@ Author URI: http://www.Xpeedstudio.com
         width:100%;
         height: 80%; 
     }
-    
-    .home {
-        background: url(../images/homebg.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
-        min-height: 50vh;
-    }
 }
 
 
@@ -117,14 +94,7 @@ Author URI: http://www.Xpeedstudio.com
         font-size: 85%;
     }
     .cd-header a.brand-logo img {
-        width: 25%;
-        margin-top: 3%;
-    }
-    .home {
-        background: url(../images/homebg.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
-        min-height: 50vh;
+        width: 20%;
     }
 
 }
@@ -141,14 +111,7 @@ Author URI: http://www.Xpeedstudio.com
         width: 40%;
     }
     .cd-header a.brand-logo img {
-        width: 25%;
-        margin-top: 3%;
-    }
-    .home {
-        background: url(../images/homebg.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
-        min-height: 50vh;
+        width: 20%;
     }
 }
 
@@ -158,14 +121,7 @@ Author URI: http://www.Xpeedstudio.com
         height: 680px;
     }
     .cd-header a.brand-logo img {
-        width: 25%;
-        margin-top: 3%;
-    }
-    .home {
-        background: url(../images/homebg.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: scroll; /* Thay thế 'fixed' trên thiết bị nhỏ */
-        min-height: 50vh;
+        width: 20%;
     }
 }
 
