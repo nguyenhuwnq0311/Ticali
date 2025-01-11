@@ -102,7 +102,7 @@ Main components
     top: 0;
     height: 50px;
     width: 50px;
-    line-height: 50px;
+    /* line-height: 50px; */
     padding: 0 .8em;
     text-transform: uppercase;
     font-weight: bold;
@@ -150,10 +150,9 @@ Main components
 }
 @media only screen and (min-width: 768px) {
     .cd-menu-trigger {
-        top: 16px;
-        right: 10px;
-        font-size: 16px;
-        font-size: 1rem;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
     }
 }
 @media only screen and (min-width: 1170px) {
