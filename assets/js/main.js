@@ -118,46 +118,99 @@ jQuery(document).ready(function ($) {
      * Menu Section
      ---------------------------------------------*/
 
-    $('.cd-menu-trigger').on('click', function (event) {
-        event.preventDefault();
-        $('.home-main-content').addClass('move-out');
-        $('#main-nav').addClass('is-visible');
-        $('.cd-shadow-layer').addClass('is-visible');
-    });
-    //close menu
-    $('.cd-close-menu').on('click', function (event) {
-        event.preventDefault();
-        $('.home-main-content').removeClass('move-out');
-        $('#main-nav').removeClass('is-visible');
-        $('.cd-shadow-layer').removeClass('is-visible');
-    });
+    // $('.cd-menu-trigger').on('click', function (event) {
+    //     event.preventDefault();
+    //     $('.home-main-content').addClass('move-out');
+    //     $('#main-nav').addClass('is-visible');
+    //     $('.cd-shadow-layer').addClass('is-visible');
+    // });
+    // //close menu
+    // $('.cd-close-menu').on('click', function (event) {
+    //     event.preventDefault();
+    //     $('.home-main-content').removeClass('move-out');
+    //     $('#main-nav').removeClass('is-visible');
+    //     $('.cd-shadow-layer').removeClass('is-visible');
+    // });
 
-    //clipped image - blur effect
+    // //clipped image - blur effect
+    // set_clip_property();
+    // $(window).on('resize', function () {
+    //     set_clip_property();
+    // });
+
+    // function set_clip_property() {
+    //     var $header_height = $('.cd-header').height(),
+    //             $window_height = $(window).height(),
+    //             $header_top = $window_height - $header_height,
+    //             $window_width = $(window).width();
+    //     $('.cd-blurred-bg').css('clip', 'rect(' + $header_top + 'px, ' + $window_width + 'px, ' + $window_height + 'px, 0px)');
+    // }
+    
+    // $('#main-nav a[href^="#"]').on('click', function (event) {
+    //     event.preventDefault();
+    //     var target = $(this.hash);
+    //     $('.home-main-content').removeClass('move-out');
+    //     $('#main-nav').removeClass('is-visible');
+    //     $('.cd-shadow-layer').removeClass('is-visible');
+    //     $('body,html').animate(
+    //             {'scrollTop': target.offset().top},
+    //             900
+    //             );
+    // });
+    
+// Hiển thị menu
+$('.cd-menu-trigger').on('click', function (event) {
+    event.preventDefault();
+    $('.home-main-content').addClass('move-out');
+    $('#main-nav').addClass('is-visible');
+    $('.cd-shadow-layer').addClass('is-visible');
+});
+
+// Đóng menu
+$('.cd-close-menu').on('click', function (event) {
+    event.preventDefault();
+    $('.home-main-content').removeClass('move-out');
+    $('#main-nav').removeClass('is-visible');
+    $('.cd-shadow-layer').removeClass('is-visible');
+});
+
+// Hiệu ứng clip-path cho nền mờ
+function set_clip_property() {
+    var $header_height = $('.cd-header').height(),
+        $window_height = $(window).height(),
+        $header_top = $window_height - $header_height,
+        $window_width = $(window).width();
+    $('.cd-blurred-bg').css('clip-path', 'inset(' + $header_top + 'px 0 0 0)');
+}
+
+// Gọi hàm khi resize
+var debounce = function (func, delay) {
+    let timer;
+    return function (...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => func.apply(this, args), delay);
+    };
+};
+$(window).on('resize', debounce(set_clip_property, 200));
+
+// Áp dụng clip-path
+if ($('.cd-blurred-bg').length) {
     set_clip_property();
-    $(window).on('resize', function () {
-        set_clip_property();
-    });
+}
 
-    function set_clip_property() {
-        var $header_height = $('.cd-header').height(),
-                $window_height = $(window).height(),
-                $header_top = $window_height - $header_height,
-                $window_width = $(window).width();
-        $('.cd-blurred-bg').css('clip', 'rect(' + $header_top + 'px, ' + $window_width + 'px, ' + $window_height + 'px, 0px)');
-    }
-    $('#main-nav a[href^="#"]').on('click', function (event) {
-        event.preventDefault();
-        var target = $(this.hash);
-        $('.home-main-content').removeClass('move-out');
-        $('#main-nav').removeClass('is-visible');
-        $('.cd-shadow-layer').removeClass('is-visible');
-        $('body,html').animate(
-                {'scrollTop': target.offset().top},
-                900
-                );
-    });
-    
-    
+// Cuộn đến phần tử mục tiêu khi nhấn menu
+$('#main-nav a[href^="#"]').on('click', function (event) {
+    event.preventDefault();
+    var target = $(this.hash);
+    $('.home-main-content').removeClass('move-out');
+    $('#main-nav').removeClass('is-visible');
+    $('.cd-shadow-layer').removeClass('is-visible');
+    $('body,html').animate(
+        { 'scrollTop': target.offset().top },
+        900
+    );
+});
+
     
 // scrolldown icon
 $('.scrolldown a').bind('click', function () {

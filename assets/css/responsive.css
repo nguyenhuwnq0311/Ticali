@@ -11,10 +11,33 @@ Author URI: http://www.Xpeedstudio.com
     .main_contactus_area input[type=submit] {
         width: 30%;
     }
+
+    .single_portfolio img{
+        width:100%;
+        height: 100%; 
+    }
     .single_portfolio.height_1 img {
         width: 100%;
         height: 100%;
     }
+
+    .team .main_team_content {
+        align-items: center; /* Căn giữa nội dung */
+   }
+
+    .team .main_team_content .offset-md-2 {
+        margin-left: 0; /* Không offset trên mobile */
+        margin-bottom: 20px; /* Tăng khoảng cách giữa các hàng */
+    }
+    /* .cd-header {
+        padding: 10px 15px;
+    }
+    .cd-header .brand-logo img {
+        width: 100px;
+    }
+    .cd-menu-trigger {
+        font-size: 22px;
+    } */
 }
 
 /* Portrait tablets and small desktops */
@@ -43,13 +66,32 @@ Author URI: http://www.Xpeedstudio.com
         width: 100%;
     }
     
-    .cd-header a.brand-logo img {
+    /* .cd-header a.brand-logo img {
         width: 20%;
+    } */
+    /* .cd-header .brand-logo img {
+        width: 90px;
     }
+    .cd-menu-trigger {
+        font-size: 20px;
+    }
+    .single_portfolio img{
+        width:100%;
+        height: 100%; 
+    } */
 
     .single_portfolio.height_1 img {
         width: 100%;
         height: 100%;
+    }
+
+    .team .main_team_content {
+        align-items: center; /* Căn giữa nội dung */
+    }
+
+    .team .main_team_content .offset-md-2 {
+        margin-left: 0; /* Không offset trên mobile */
+        margin-bottom: 20px; /* Tăng khoảng cách giữa các hàng */
     }
 }
 
@@ -61,11 +103,11 @@ Author URI: http://www.Xpeedstudio.com
     html {
         font-size: 90%;
     }
-    .cd-header a.brand-logo img {
+    /* .cd-header a.brand-logo img {
         width: 20%;
     }
     .cd-header {
-        /* height:5%; */
+        height:5%;
         left: 0;
     }
     .cd-menu-trigger {
@@ -73,10 +115,16 @@ Author URI: http://www.Xpeedstudio.com
         right: 10px;
         font-size: 16px;
         font-size: 1rem;
+    } */
+    /* .cd-header .brand-logo img {
+        width: 80px;
+    }
+    .cd-menu-trigger {
+        font-size: 18px;
     }
     #main-nav li a{
         padding: 2% 10%;
-    }
+    } */
     .main_service_content img{
         width:100%;
     }
@@ -101,12 +149,23 @@ Author URI: http://www.Xpeedstudio.com
 
     .single_portfolio img{
         width:100%;
-        height: 80%; 
+        height: 100%; 
     }
     .single_portfolio.height_1 img {
         width: 100%;
         height: 100%;
     }
+
+
+    .team .main_team_content {
+        align-items: center; /* Căn giữa nội dung */
+    }
+
+    .team .main_team_content .offset-md-2 {
+        margin-left: 0; /* Không offset trên mobile */
+        margin-bottom: 20px; /* Tăng khoảng cách giữa các hàng */
+    }
+    
 }
 
 
@@ -116,19 +175,41 @@ Author URI: http://www.Xpeedstudio.com
         font-size: 85%;
     }
 
+    .single_portfolio img{
+        width:100%;
+        height: 100%; 
+    }
     .single_portfolio.height_1 img {
         width: 100%;
         height: 100%;
     }
-    .cd-header a.brand-logo img {
+    /* .cd-header a.brand-logo img {
         width: 30%;
-        /* margin-top: 4%; */
+        margin-top: 4%;
     }
     .cd-header {
         height:7%;
         left: 0;
+    } */
+    /* .cd-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .cd-header .brand-logo img {
+        width: 70px;
+    }
+    .cd-menu-trigger {
+        font-size: 16px;
+    } */
+
+    .team .main_team_content {
+        align-items: center; /* Căn giữa nội dung */
     }
 
+    .team .main_team_content .offset-md-2 {
+        margin-left: 0; /* Không offset trên mobile */
+        margin-bottom: 20px; /* Tăng khoảng cách giữa các hàng */
+    }
 
 }
 
@@ -143,10 +224,30 @@ Author URI: http://www.Xpeedstudio.com
     .main_contactus_area input[type=submit] {
         width: 40%;
     }
+
+    .single_portfolio img{
+        width:100%;
+        height: 100%; 
+    }
     .single_portfolio.height_1 img {
         width: 100%;
         height: 100%;
     }
+
+    .team .main_team_content {
+        align-items: center; /* Căn giữa nội dung */
+    }
+
+    .team .main_team_content .offset-md-2 {
+        margin-left: 0; /* Không offset trên mobile */
+        margin-bottom: 20px; /* Tăng khoảng cách giữa các hàng */
+    }
+    /* .cd-header .brand-logo img {
+        width: 60px;
+    }
+    .cd-menu-trigger {
+        font-size: 14px;
+    } */
 }
 
 
@@ -154,10 +255,34 @@ Author URI: http://www.Xpeedstudio.com
     .ourmap {
         height: 680px;
     }
+
+    .single_portfolio img{
+        width:100%;
+        height: 100%; 
+    }
     .single_portfolio.height_1 img {
         width: 100%;
         height: 100%;
     }
+
+
+    .team .main_team_content {
+        align-items: center; /* Căn giữa nội dung */
+    }
+
+    .team .main_team_content .offset-md-2 {
+        margin-left: 0; /* Không offset trên mobile */
+        margin-bottom: 20px; /* Tăng khoảng cách giữa các hàng */
+    }
+    /* .cd-header {
+        padding: 8px 12px;
+    }
+    .cd-header .brand-logo img {
+        width: 85px;
+    }
+    .cd-menu-trigger {
+        font-size: 18px;
+    } */
 }
 
 

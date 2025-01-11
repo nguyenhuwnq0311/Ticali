@@ -54,24 +54,79 @@ Main components
     overflow-y: auto;
 }
 
-
+/* .cd-header{
+    position: fixed;
+    top: 0;
+} */
 
 .cd-header {
-    position: absolute;
-    top:10%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* top: 10%; */
     left: 0;
     width: 100%;
     height: 50px;
+    background-color: #333;
     z-index: 2;
     -webkit-transition: background 0.2s;
     -moz-transition: background 0.2s;
     transition: background 0.2s;
 }
-@media only screen and (min-width: 768px) {
+
+.cd-header.small{
+    background: #333;
+}
+nav ul li {
+    transition: background-color .3s;
+    float: none;
+    padding: 0;
+    text-align: center;
+}
+/* #main-nav li {
+    height: 15%;
+} */
+
+/* #main-nav li a {
+    position: relative;
+    display: block;
+    padding: 2% 10%;
+    height: 100%;
+    border-bottom: 1px solid #dfdbec;
+    color: #3a393f;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+} */
+/* .cd-header a.brand-logo img{
+    width: 50%;
+    max-width: 20%;
+    padding: 0px;
+} */
+
+.brand-logo img{
+    /* width:50%; */
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+/* .cd-menu-trigger {
+    font-size: 24px;
+    right: 10;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+
+/* @media only screen and (min-width: 768px) {
     .cd-header {
         height: 80px;
     }
-}
+} */
 
 #cd-logo {
     position: absolute;
@@ -98,24 +153,27 @@ Main components
 .cd-menu-trigger {
     display: inline-block;
     position: absolute;
-    right: 0;
+    right: 3%;
     top: 0;
     height: 50px;
     width: 50px;
     /* line-height: 50px; */
     padding: 0 .8em;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
+    /* text-decoration: none;
+    cursor: pointer;
+    font-weight: bold; */
     font-size: 0.875rem;
     /*border: 2px solid #EDEDED;*/
+
 }
 .cd-menu-trigger span {
     /* hamburger icon */
     position: relative;
     display: inline-block;
-    width: 18px;
-    height: 2px;
+    width: 20px;
+    height: 3px;
+    top: 35%;
     background-color: white;
     vertical-align: middle;
     -webkit-transform: translateY(-2px);
@@ -148,7 +206,7 @@ Main components
 .no-touch .cd-menu-trigger:hover span::after {
     bottom: -8px;
 }
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
     .cd-menu-trigger {
         top: 20px;
         right: 20px;
@@ -159,7 +217,7 @@ Main components
     .cd-menu-trigger {
         right: 60px;
     }
-}
+} */
 
 #main-nav {
    position: fixed;
@@ -195,7 +253,7 @@ Main components
 #main-nav li a {
     position: relative;
     display: block;
-    padding: 0 10%;
+    padding: 6% 10%;
     height: 100%;
     border-bottom: 1px solid #dfdbec;
     color: #3a393f;
