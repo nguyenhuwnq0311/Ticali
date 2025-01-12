@@ -38,6 +38,13 @@ Author URI: http://www.Xpeedstudio.com
     .cd-menu-trigger {
         font-size: 22px;
     } */
+     
+    #main-nav li a {
+        position: relative;
+        display: block;
+        padding: 5% 10%;
+        height: 100%;
+    }
 }
 
 /* Portrait tablets and small desktops */
